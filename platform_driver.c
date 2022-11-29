@@ -4,9 +4,9 @@
 #include "platform.h"
 
 /* 
- *  Probe method will get called once the corresponding platform 
- *  device matches with the platform driver either by name or 
- *  id_table
+ *  Probe method will get called once the driver
+ *  gets registered
+ *
 */
 static int pdrv_probe(struct platform_device* pdev)
 {
